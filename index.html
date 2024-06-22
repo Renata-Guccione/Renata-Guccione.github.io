@@ -1,5 +1,4 @@
 index.html:
-html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,14 +6,27 @@ html
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
+            background-color: #E6E6FA; /* Morado claro */
             color: #000080; /* Azul marino */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
         }
     </style>
 </head>
 <body>
-    <h1>Hola mundo</h1>
-    <p>Mi nombre es Renata Guccione, tengo 18 años y estudio Administración de Negocios en la Universidad Católica San Pablo.</p>
+    <div class="container">
+        <h1>Hola mundo</h1>
+        <p>Soy Renata Sofía Guccione Núñez, tengo 18 años y estudio Administración de Negocios en la Universidad Católica San Pablo. Toco el piano y hablo inglés y francés, me gusta leer y formo parte de una ONG de nombre Atmosphera.</p>
+    </div>
 </body>
 </html>
